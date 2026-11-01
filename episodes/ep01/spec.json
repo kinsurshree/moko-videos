@@ -1,0 +1,61 @@
+{
+ "id": "ep01",
+ "cast": [
+  "moko",
+  "drip"
+ ],
+ "start_mood": "calm",
+ "lines": [
+  {
+   "who": "drip",
+   "text": "मोको, क्या मैं तुम्हारी इंद्रधनुष वाली बॉल से खेल लूँ?",
+   "do": [
+    "show:ball"
+   ]
+  },
+  {
+   "who": "moko",
+   "text": "हम्फ़! गड़-गड़! नहीं! ये मेरी बॉल है!",
+   "mood": "angry",
+   "drip": "sad"
+  },
+  {
+   "who": "moko",
+   "text": "अरे! मुझे गुस्सा आ रहा है। और ड्रिप उदास हो गया।",
+   "mood": "angry"
+  },
+  {
+   "who": "sunny",
+   "text": "चलो, बारी-बारी खेलते हैं! पहले तुम, फिर ड्रिप।",
+   "do": [
+    "enter:sunny"
+   ]
+  },
+  {
+   "who": "moko",
+   "text": "बारी-बारी? ठीक है। ड्रिप, तुम्हारी बारी!",
+   "mood": "calm",
+   "do": [
+    "give:ball:drip"
+   ]
+  },
+  {
+   "who": "drip",
+   "text": "येय! थैंक यू, मोको!",
+   "drip": "happy"
+  },
+  {
+   "who": "moko",
+   "text": "शेयर करना अच्छा लगता है! बारी-बारी खेलो, सब खुश रहो। क्या तुम भी अपने खिलौने शेयर करते हो? शाबाश! मन बदला, मौसम बदला!",
+   "mood": "happy",
+   "do": [
+    "rainbow"
+   ]
+  }
+ ],
+ "meta": {
+  "pillar": "Feelings and kindness",
+  "topic": "sharing / taking turns",
+  "title": "मोको को आया गुस्सा! 😠☁️ शेयर करना सीखो | Hindi Cartoon Story"
+ }
+}

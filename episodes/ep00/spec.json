@@ -1,0 +1,21 @@
+{
+  "id": "ep00",
+  "cast": ["moko", "drip"],
+  "start_mood": "happy",
+  "lines": [
+    {"who": "moko", "text": "नमस्ते दोस्तों! मैं हूँ मोको, एक छोटा सा बादल!", "mood": "happy"},
+    {"who": "moko", "text": "जब मैं खुश होता हूँ, तो धूप निकलती है!", "mood": "excited"},
+    {"who": "moko", "text": "और जब उदास होता हूँ, तो बारिश होती है!", "mood": "sad"},
+    {"who": "drip", "text": "मैं हूँ ड्रिप, मोको का छोटा सा दोस्त!", "mood": "calm", "drip": "happy"},
+    {"who": "sunny", "text": "और मैं हूँ सनी! हम रोज़ कुछ नया सीखेंगे!", "do": ["enter:sunny"]},
+    {"who": "wind", "text": "मैं हूँ दादा हवा। प्यार से सीखो, खुश रहो!", "do": ["enter:wind"]},
+    {"who": "moko", "text": "तो रोज़ सुबह और शाम मिलो मोको से! मन बदला, मौसम बदला!", "mood": "happy", "do": ["rainbow"]}
+  ],
+  "meta": {
+    "pillar": "Intro",
+    "topic": "meet Moko and friends",
+    "title": "मिलो मोको से! ☁️🌈 छोटा बादल और उसके दोस्त | Hindi Cartoon",
+    "description": "मिलो मोको से, एक छोटा सा बादल जिसका मूड बदलते ही मौसम बदल जाता है! ☁️🌈 खुश हो तो धूप, उदास हो तो बारिश। साथ में हैं उसके दोस्त ड्रिप, सनी और दादा हवा।\n\n👶 2–6 साल के बच्चों के लिए: रोज़ सुबह 7 बजे और शाम 7 बजे एक नई कहानी और नई सीख।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+    "tags": ["hindi cartoon", "hindi cartoon story", "kids story in hindi", "cartoon in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "हिंदी कार्टून", "बच्चों की कहानी"]
+  }
+}

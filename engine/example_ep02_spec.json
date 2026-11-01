@@ -1,22 +1,90 @@
 {
-  "id": "ep02",
-  "cast": ["moko", "drip"],
-  "start_mood": "excited",
-  "start_mud": true,
-  "lines": [
-    {"who": "moko", "text": "येय! नाश्ते का टाइम! मुझे सेब खाना है!", "mood": "excited", "do": ["show:apple"]},
-    {"who": "drip", "text": "रुको मोको! तुम्हारे हाथ तो मिट्टी से गंदे हैं!", "drip": "happy", "do": ["give:apple:drip"]},
-    {"who": "moko", "text": "उफ़! मैं तो भूल ही गया।", "mood": "shy"},
-    {"who": "wind", "text": "चलो बेटा, साबुन और पानी से हाथ धोते हैं। आगे से रगड़ो, पीछे से रगड़ो, उंगलियों के बीच भी!", "mood": "calm", "do": ["enter:wind", "show:soap"]},
-    {"who": "moko", "text": "रगड़, रगड़, रगड़! देखो, मेरे हाथ चमक गए!", "mood": "excited", "do": ["bubbles", "mud:off", "hide:soap"]},
-    {"who": "drip", "text": "वाह! अब सेब खा सकते हो!", "drip": "happy", "do": ["give:apple:moko"]},
-    {"who": "moko", "text": "खाने से पहले हमेशा हाथ धोओ! अपने साफ़ हाथ दिखाओ! शाबाश! मन बदला, मौसम बदला!", "mood": "happy", "do": ["rainbow"]}
-  ],
-  "meta": {
-    "pillar": "Healthy habits",
-    "topic": "washing hands before eating",
-    "title": "मोको के हाथ गंदे! 🧼☁️ हाथ धोना सीखो | Kids Story in Hindi",
-    "description": "खाने से पहले हाथ धोना ज़रूरी है! 🧼☁️ इस Hindi cartoon story में मोको मिट्टी वाले हाथों से सेब खाने चलता है, तब ड्रिप उसे रोकता है और दादा हवा सिखाते हैं साबुन से हाथ धोना। आगे से, पीछे से, उंगलियों के बीच भी!\n\n👶 2–6 साल के बच्चों के लिए: साफ़-सफ़ाई और अच्छी आदतें।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
-    "tags": ["hindi cartoon story", "kids story in hindi", "hand washing for kids hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "good habits for kids hindi", "moko", "मोको", "छोटा बादल", "हाथ धोना", "बच्चों की कहानी", "हिंदी कार्टून"]
+ "id": "ep02",
+ "cast": [
+  "moko",
+  "drip"
+ ],
+ "start_mood": "excited",
+ "start_mud": true,
+ "lines": [
+  {
+   "who": "moko",
+   "text": "येय! नाश्ते का टाइम! मुझे सेब खाना है!",
+   "mood": "excited",
+   "do": [
+    "show:apple"
+   ]
+  },
+  {
+   "who": "drip",
+   "text": "रुको मोको! तुम्हारे हाथ तो मिट्टी से गंदे हैं!",
+   "drip": "happy",
+   "do": [
+    "give:apple:drip"
+   ]
+  },
+  {
+   "who": "moko",
+   "text": "उफ़! मैं तो भूल ही गया।",
+   "mood": "shy"
+  },
+  {
+   "who": "wind",
+   "text": "चलो बेटा, साबुन और पानी से हाथ धोते हैं। आगे से रगड़ो, पीछे से रगड़ो, उंगलियों के बीच भी!",
+   "mood": "calm",
+   "do": [
+    "enter:wind",
+    "show:soap"
+   ]
+  },
+  {
+   "who": "moko",
+   "text": "रगड़, रगड़, रगड़! देखो, मेरे हाथ चमक गए!",
+   "mood": "excited",
+   "do": [
+    "bubbles",
+    "mud:off",
+    "hide:soap"
+   ]
+  },
+  {
+   "who": "drip",
+   "text": "वाह! अब सेब खा सकते हो!",
+   "drip": "happy",
+   "do": [
+    "give:apple:moko"
+   ]
+  },
+  {
+   "who": "moko",
+   "text": "खाने से पहले हमेशा हाथ धोओ! अपने साफ़ हाथ दिखाओ! शाबाश! मन बदला, मौसम बदला!",
+   "mood": "happy",
+   "do": [
+    "rainbow"
+   ]
   }
+ ],
+ "meta": {
+  "pillar": "Healthy habits",
+  "topic": "washing hands before eating",
+  "title": "मोको के हाथ गंदे! 🧼☁️ हाथ धोना सीखो | Kids Story in Hindi",
+  "description": "खाने से पहले हाथ धोना ज़रूरी है! 🧼☁️ इस Hindi cartoon story में मोको मिट्टी वाले हाथों से सेब खाने चलता है, तब ड्रिप उसे रोकता है और दादा हवा सिखाते हैं साबुन से हाथ धोना। आगे से, पीछे से, उंगलियों के बीच भी!\n\n👶 2–6 साल के बच्चों के लिए: साफ़-सफ़ाई और अच्छी आदतें।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": [
+   "hindi cartoon story",
+   "kids story in hindi",
+   "hand washing for kids hindi",
+   "hindi moral stories",
+   "cartoon story in hindi",
+   "hindi kids story",
+   "bachon ki kahaniyan",
+   "good habits for kids hindi",
+   "moko",
+   "मोको",
+   "छोटा बादल",
+   "हाथ धोना",
+   "बच्चों की कहानी",
+   "हिंदी कार्टून"
+  ]
+ },
+ "location": "garden"
 }

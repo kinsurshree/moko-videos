@@ -1,0 +1,8 @@
+voice.mp3
+line_*.mp3
+audio.wav
+video.mp4
+preview.png
+__pycache__/
+.gkey
+*.key

@@ -1,0 +1,23 @@
+{
+ "id": "ep03",
+ "cast": ["moko", "drip", "sunny"],
+ "start_mood": "sad",
+ "location": "farm",
+ "lines": [
+  {"who": "moko", "text": "ओह! मेरे फूल को बहुत प्यास लगी है।", "mood": "sad", "do": ["show:flower"]},
+  {"who": "drip", "text": "मोको, बारिश से फूल को पानी मिलता है।", "mood": "sad", "drip": "happy", "do": ["show:water"]},
+  {"who": "moko", "text": "तो सुनो ड्रिप, मैं टिप-टिप बारिश बरसाता हूँ!", "mood": "sad"},
+  {"who": "drip", "text": "टिप-टिप टिप-टिप! वाह, फूल को पानी मिल गया!", "mood": "sad", "drip": "excited", "do": ["hide:water"]},
+  {"who": "sunny", "text": "अब मैं आता हूँ! फूल को धूप भी चाहिए।", "mood": "happy", "do": ["enter:sunny"]},
+  {"who": "moko", "text": "देखो! बारिश और धूप से फूल बड़ा होता है।", "mood": "happy"},
+  {"who": "sunny", "text": "बच्चों, बताओ, फूल को क्या चाहिए? पानी और धूप!", "mood": "happy"},
+  {"who": "moko", "text": "पानी और धूप, दोनों दोस्त हैं। मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Weather and nature",
+  "topic": "rain and sun help flowers grow",
+  "title": "मोको का फूल प्यासा! 🌸☁️ बारिश और धूप | Hindi Cartoon Story",
+  "description": "फूल को बारिश और धूप दोनों चाहिए! 🌸☁️ इस Hindi cartoon story में मोको और ड्रिप फूल को पानी देते हैं और सनी धूप लाता है। बच्चे सीखते हैं कि पौधे कैसे बढ़ते हैं।\n\n👶 2–6 साल के बच्चों के लिए: मौसम और प्रकृति की छोटी सीख।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "बारिश क्यों होती है", "plants for kids hindi"]
+ }
+}

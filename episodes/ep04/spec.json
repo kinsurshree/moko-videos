@@ -1,0 +1,23 @@
+{
+ "id": "ep04",
+ "cast": ["moko", "drip", "wind"],
+ "start_mood": "scared",
+ "location": "road",
+ "lines": [
+  {"who": "moko", "text": "अरे! सड़क पर गाड़ियाँ आ रही हैं!", "mood": "scared"},
+  {"who": "wind", "text": "रुको बेटा! पहले रुको, फिर देखो, फिर चलो।", "mood": "calm", "do": ["enter:wind"]},
+  {"who": "drip", "text": "दादा जी, हम सड़क कब पार करें?", "mood": "calm", "drip": "shy"},
+  {"who": "wind", "text": "जब कोई गाड़ी न आए, तब चलो।", "mood": "calm"},
+  {"who": "moko", "text": "और हमेशा बड़ों का हाथ पकड़ना चाहिए।", "mood": "calm"},
+  {"who": "drip", "text": "रुको, देखो, चलो! मैं याद रखूँगा।", "mood": "happy", "drip": "happy"},
+  {"who": "moko", "text": "बच्चों, सड़क पर पहले क्या करना है? रुको!", "mood": "excited"},
+  {"who": "moko", "text": "रुको, देखो, चलो! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Safety",
+  "topic": "crossing the road safely: stop, look, go",
+  "title": "मोको डर गया! 🚗☁️ सड़क पार करना सीखो | Hindi Cartoon Story",
+  "description": "सड़क पार करने से पहले रुको, देखो, फिर चलो! 🚗☁️ इस Hindi cartoon story में दादा हवा मोको और ड्रिप को सुरक्षित सड़क पार करना सिखाते हैं। बड़ों का हाथ पकड़ना कभी न भूलें।\n\n👶 2–6 साल के बच्चों के लिए: सड़क सुरक्षा की छोटी सीख।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "road safety for kids hindi", "सड़क सुरक्षा"]
+ }
+}

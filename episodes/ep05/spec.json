@@ -1,0 +1,23 @@
+{
+ "id": "ep05",
+ "cast": ["moko", "drip", "sunny"],
+ "start_mood": "calm",
+ "location": "school",
+ "lines": [
+  {"who": "moko", "text": "येय! आज हम सब गिनती सीखेंगे!", "mood": "excited", "do": ["show:book"]},
+  {"who": "moko", "text": "देखो ड्रिप! ये है एक!", "mood": "excited", "do": ["hide:book", "show:n1"]},
+  {"who": "moko", "text": "एक, दो! अब दो हो गए!", "mood": "excited", "do": ["show:n2"]},
+  {"who": "drip", "text": "एक, दो, तीन! मुझे भी गिनती आ गई!", "mood": "happy", "drip": "excited", "do": ["show:n3"]},
+  {"who": "sunny", "text": "वाह ड्रिप! तुम तो तीन तक गिन सकते हो!", "mood": "happy", "do": ["enter:sunny"]},
+  {"who": "moko", "text": "चलो फिर से गिनते हैं! एक, दो, तीन!", "mood": "happy"},
+  {"who": "sunny", "text": "बच्चों, तुम भी गिनो! एक, दो, तीन!", "mood": "happy"},
+  {"who": "moko", "text": "एक, दो, तीन! गिनती बहुत मज़ेदार है! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Numbers and shapes",
+  "topic": "counting 1 to 3",
+  "title": "मोको और ड्रिप की गिनती! 🔢☁️ एक दो तीन | Hindi Cartoon Story",
+  "description": "आओ बच्चों, एक, दो, तीन गिनना सीखें! 🔢☁️ इस Hindi cartoon story में मोको, ड्रिप और सनी मिलकर गिनती सीखते हैं। आप भी साथ में गिनिए!\n\n👶 2–6 साल के बच्चों के लिए: गिनती की पहली सीख।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "counting for kids hindi", "गिनती"]
+ }
+}

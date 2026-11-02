@@ -1,0 +1,23 @@
+{
+ "id": "ep06",
+ "cast": ["moko", "drip", "wind"],
+ "start_mood": "sad",
+ "location": "night",
+ "lines": [
+  {"who": "moko", "text": "ऊँ ऊँ! मुझे नींद ही नहीं आ रही।", "mood": "sad"},
+  {"who": "wind", "text": "आओ बेटा, रात हो गई है। सोने का समय है।", "mood": "calm", "do": ["enter:wind"]},
+  {"who": "moko", "text": "लेकिन दादा जी, मुझे अकेले नींद नहीं आती।", "mood": "shy"},
+  {"who": "wind", "text": "देखो! आसमान में कितने सुंदर तारे हैं!", "mood": "calm", "do": ["show:star"]},
+  {"who": "drip", "text": "तारे हमारे दोस्त हैं। वो हमारे साथ रहते हैं।", "mood": "calm", "drip": "happy"},
+  {"who": "wind", "text": "अब आँखें बंद करो और धीरे-धीरे साँस लो।", "mood": "calm"},
+  {"who": "moko", "text": "बच्चों, रात को हम क्या करते हैं? हम सो जाते हैं।", "mood": "calm"},
+  {"who": "moko", "text": "शुभ रात्रि दोस्तों! मन बदला, मौसम बदला!", "mood": "happy", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Bedtime and calm",
+  "topic": "bedtime: counting stars and calm breathing",
+  "title": "मोको को नींद नहीं आई 🌙☁️ सोने का समय | Hindi Cartoon Story",
+  "description": "रात को सोने का समय हो गया! 🌙☁️ इस Hindi cartoon story में दादा हवा मोको को तारे दिखाते हैं और गहरी साँस लेना सिखाते हैं। बच्चों के लिए प्यारी सोने की कहानी।\n\n👶 2–6 साल के बच्चों के लिए: सोने का समय और शांत रहना।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "bedtime story hindi", "सोने की कहानी"]
+ }
+}

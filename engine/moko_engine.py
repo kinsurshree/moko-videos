@@ -1,7 +1,7 @@
 """Moko episode engine.
 
 python3 moko_engine.py <episode_dir>
-  episode_dir must contain: spec.json, voice.mp3   (voice = all lines in order, one file)
+  episode_dir must contain: spec.json, voice.mp3 (old vidIQ voice) OR nothing (then Google TTS makes the voices; needs env GOOGLE_TTS_KEY)
   writes: episode_dir/final.mp4, timing.json, preview.png
 
 spec.json:
@@ -219,13 +219,19 @@ def extra_sfx(spec, lines, N, rng):
     return out
 
 def build_audio(ep_dir, spec):
-    x = decode(os.path.join(ep_dir, "voice.mp3"))
-    texts = [l["text"] for l in spec["lines"]]
-    segs = split_lines(x, texts)
+    google = not os.path.exists(os.path.join(ep_dir, "voice.mp3"))
+    if google:   # Google TTS: one real voice per character, one clip per line
+        import gtts
+        gsegs = gtts.synth_episode(ep_dir, spec, decode, SR)
+        segs = [(0, 0)] * len(gsegs)
+    else:        # old vidIQ single-file voice, split by silence + pitch shift
+        x = decode(os.path.join(ep_dir, "voice.mp3"))
+        texts = [l["text"] for l in spec["lines"]]
+        segs = split_lines(x, texts)
     t = 0.6
     pieces, lines = [], []
-    for l, (a, b) in zip(spec["lines"], segs):
-        seg = pitch(x[int(a * SR):int(b * SR)], PITCH.get(l["who"], 0))
+    for li, (l, (a, b)) in enumerate(zip(spec["lines"], segs)):
+        seg = gsegs[li] if google else pitch(x[int(a * SR):int(b * SR)], PITCH.get(l["who"], 0))
         pieces.append((l["who"], t, seg))
         lines.append([l["who"], round(t, 3), round(t + len(seg) / SR, 3)])
         t += len(seg) / SR + GAP

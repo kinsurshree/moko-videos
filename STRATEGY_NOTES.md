@@ -2,6 +2,13 @@
 
 Updated every Monday by the weekly review. Newest notes on top.
 
+## 2026-11-02 · weekly review #1 (data too early)
+- Week 26 Oct–1 Nov: no videos were live yet (first episodes go out 2 Nov), so Metricool shows 0 views. YouTube starts at 33 subscribers, Facebook at 5 followers. No lessons from data yet.
+- Keep ALL starting rules below unchanged for this week.
+- Post both 07:00 and 19:00 IST every day so next Monday can compare the two time slots.
+- Rotate pillars evenly (feelings, healthy habits, safety, learning numbers/colours, bedtime) so next week shows which pillar wins.
+- vidIQ credits are low (65 left, reset 10 Nov): use vidIQ only where really needed; reuse the keywords listed below instead of new keyword research.
+
 ## 2026-11-02 · starting rules
 - Channel is new: focus on consistency (2 Shorts a day, 07:00 and 19:00 IST) and one compilation every Sunday 11:00 IST.
 - Strongest search keywords (vidIQ, India): "hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon stories in hindi".

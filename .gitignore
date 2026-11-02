@@ -6,3 +6,5 @@ preview.png
 __pycache__/
 .gkey
 *.key
+episodes/*/final.mp4
+episodes/*/timing.json

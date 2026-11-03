@@ -1,0 +1,23 @@
+{
+ "id": "ep08",
+ "cast": ["moko", "drip", "sunny"],
+ "start_mood": "sad",
+ "location": "town",
+ "lines": [
+  {"who": "moko", "text": "मुझे बहुत प्यास लगी है! पानी दो!", "mood": "sad", "do": ["show:water"]},
+  {"who": "sunny", "text": "मोको, कुछ माँगते समय क्या कहते हैं?", "mood": "calm", "do": ["enter:sunny"]},
+  {"who": "moko", "text": "ओह! मैं तो प्लीज़ कहना भूल गया।", "mood": "shy"},
+  {"who": "moko", "text": "ड्रिप, मुझे थोड़ा पानी दोगे? प्लीज़!", "mood": "calm"},
+  {"who": "drip", "text": "हाँ हाँ मोको! ये लो तुम्हारा पानी!", "mood": "happy", "drip": "happy", "do": ["give:water:moko"]},
+  {"who": "moko", "text": "थैंक यू ड्रिप! तुम बहुत अच्छे हो!", "mood": "happy"},
+  {"who": "sunny", "text": "बच्चों, माँगते समय क्या कहते हैं? प्लीज़ और थैंक यू!", "mood": "happy"},
+  {"who": "moko", "text": "प्लीज़ और थैंक यू! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Feelings and kindness",
+  "topic": "saying please and thank you",
+  "title": "मोको को लगी प्यास! 💧☁️ प्लीज़ थैंक यू सीखो | Hindi Cartoon Story",
+  "description": "माँगते समय प्लीज़ और मिलने पर थैंक यू कहो! 💧☁️ इस Hindi cartoon story में मोको, ड्रिप और सनी अच्छी बातें बोलना सीखते हैं।\n\n👶 2–6 साल के बच्चों के लिए: अच्छी आदतें और अच्छा व्यवहार।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "good manners for kids hindi", "please thank you"]
+ }
+}

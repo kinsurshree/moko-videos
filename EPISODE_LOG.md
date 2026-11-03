@@ -10,3 +10,5 @@ ep03 | 2026-11-03 07:00 | Weather and nature | rain and sun help flowers grow (f
 ep04 | 2026-11-03 19:00 | Safety | crossing the road: stop, look, go (road) | मोको डर गया! 🚗☁️ सड़क पार करना सीखो | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
 ep05 | 2026-11-04 07:00 | Numbers and shapes | counting 1 to 3 (school) | मोको और ड्रिप की गिनती! 🔢☁️ एक दो तीन | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
 ep06 | 2026-11-04 19:00 | Bedtime and calm | bedtime: stars and calm breathing (night) | मोको को नींद नहीं आई 🌙☁️ सोने का समय | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
+ep07 | 2026-11-05 07:00 | Healthy habits | brushing teeth morning and night (garden) | मोको के दाँत गंदे! 🪥☁️ ब्रश करना सीखो | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
+ep08 | 2026-11-05 19:00 | Feelings and kindness | saying please and thank you (town) | मोको को लगी प्यास! 💧☁️ प्लीज़ थैंक यू सीखो | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices

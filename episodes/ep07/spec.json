@@ -1,0 +1,23 @@
+{
+ "id": "ep07",
+ "cast": ["moko", "drip", "wind"],
+ "start_mood": "sad",
+ "location": "garden",
+ "lines": [
+  {"who": "moko", "text": "उफ़! मेरे दाँत तो गंदे हो गए हैं!", "mood": "sad"},
+  {"who": "drip", "text": "मोको, क्या तुमने दाँत साफ़ नहीं किए?", "mood": "sad", "drip": "shy"},
+  {"who": "wind", "text": "आओ बेटा, टूथब्रश से दाँत साफ़ करते हैं।", "mood": "calm", "do": ["enter:wind", "show:toothbrush"]},
+  {"who": "wind", "text": "ऊपर-नीचे, ऊपर-नीचे! धीरे-धीरे ब्रश करो।", "mood": "calm", "do": ["bubbles"]},
+  {"who": "moko", "text": "वाह! अब मेरे दाँत चमक रहे हैं!", "mood": "happy"},
+  {"who": "drip", "text": "सुबह और रात को दाँत साफ़ करना चाहिए।", "mood": "happy", "drip": "happy"},
+  {"who": "moko", "text": "बच्चों, दाँत कब साफ़ करने हैं? सुबह और रात!", "mood": "excited"},
+  {"who": "moko", "text": "रोज़ ब्रश करो, दाँत चमकेंगे! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Healthy habits",
+  "topic": "brushing teeth morning and night",
+  "title": "मोको के दाँत गंदे! 🪥☁️ ब्रश करना सीखो | Hindi Cartoon Story",
+  "description": "रोज़ सुबह और रात को दाँत साफ़ करो! 🪥☁️ इस Hindi cartoon story में दादा हवा मोको को टूथब्रश से दाँत साफ़ करना सिखाते हैं। बच्चे भी साथ में ब्रश करना सीखें।\n\n👶 2–6 साल के बच्चों के लिए: साफ़-सफ़ाई और अच्छी आदतें।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "brushing teeth for kids hindi", "दाँत साफ़ करना"]
+ }
+}

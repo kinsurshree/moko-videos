@@ -1,0 +1,23 @@
+{
+ "id": "ep10",
+ "cast": ["moko", "drip", "sunny"],
+ "start_mood": "calm",
+ "location": "farm",
+ "lines": [
+  {"who": "moko", "text": "येय! आज हम सब रंग सीखेंगे!", "mood": "excited", "do": ["show:apple"]},
+  {"who": "moko", "text": "देखो! ये लाल सेब है। लाल!", "mood": "excited"},
+  {"who": "sunny", "text": "और ये पीला केला है। पीला!", "mood": "happy", "do": ["enter:sunny", "hide:apple", "show:banana"]},
+  {"who": "drip", "text": "और ये नीला पानी है। नीला!", "mood": "happy", "drip": "excited", "do": ["hide:banana", "show:water"]},
+  {"who": "moko", "text": "लाल, पीला, नीला! कितने सुंदर रंग हैं!", "mood": "happy"},
+  {"who": "sunny", "text": "इन रंगों से इंद्रधनुष बनता है!", "mood": "happy"},
+  {"who": "moko", "text": "बच्चों, बताओ, सेब का रंग क्या है? लाल!", "mood": "excited"},
+  {"who": "moko", "text": "लाल, पीला, नीला! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Colors",
+  "topic": "red, yellow, blue colors",
+  "title": "मोको के रंग! 🍎🍌☁️ लाल पीला नीला | Hindi Cartoon Story",
+  "description": "आओ बच्चों, रंग सीखें: लाल, पीला, नीला! 🍎🍌💧 इस Hindi cartoon story में मोको, ड्रिप और सनी सेब, केला और पानी से तीन रंग सिखाते हैं।\n\n👶 2–6 साल के बच्चों के लिए: रंगों की पहली सीख।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "colors for kids hindi", "रंग सीखो"]
+ }
+}

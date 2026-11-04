@@ -1,0 +1,23 @@
+{
+ "id": "ep09",
+ "cast": ["moko", "drip", "wind"],
+ "start_mood": "scared",
+ "location": "park",
+ "lines": [
+  {"who": "moko", "text": "अरे! दादा हवा कहाँ गए? मैं अकेला रह गया!", "mood": "scared"},
+  {"who": "drip", "text": "मोको, तुम बहुत दूर चले गए थे। घबराओ मत!", "mood": "scared", "drip": "sad"},
+  {"who": "wind", "text": "मैं यहाँ हूँ बेटा! पार्क में हमेशा साथ रहो।", "mood": "calm", "do": ["enter:wind"]},
+  {"who": "wind", "text": "अगर कभी खो जाओ, तो वहीं रुको और बड़ों से बताओ।", "mood": "calm"},
+  {"who": "moko", "text": "ठीक है दादा जी। अब मैं साथ-साथ चलूँगा।", "mood": "calm"},
+  {"who": "drip", "text": "हम सब साथ रहेंगे! साथ रहना सुरक्षित है।", "mood": "happy", "drip": "happy"},
+  {"who": "moko", "text": "बच्चों, खो जाओ तो क्या करना है? वहीं रुको!", "mood": "excited"},
+  {"who": "moko", "text": "बड़ों के साथ रहो, सुरक्षित रहो! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Safety",
+  "topic": "stay with grown-ups, if lost stay where you are",
+  "title": "मोको खो गया! 😨☁️ बड़ों के साथ रहना सीखो | Hindi Cartoon Story",
+  "description": "बाहर हमेशा बड़ों के साथ रहो! 😨☁️ इस Hindi cartoon story में मोको पार्क में अकेला रह जाता है और दादा हवा उसे सिखाते हैं कि खो जाओ तो वहीं रुको और बड़ों से बताओ।\n\n👶 2–6 साल के बच्चों के लिए: सुरक्षा की छोटी सीख।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "safety for kids hindi", "बच्चों की सुरक्षा"]
+ }
+}

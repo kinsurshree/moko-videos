@@ -26,13 +26,14 @@ do actions: show:<prop>, give:<prop>:<drip|sunny|wind|moko>, hide:<prop>, mud:on
 props: apple, ball, soap, toothbrush, water, star, heart, flower, umbrella, banana, book, n1..n9
 Music, sound effects and camera movement are added automatically (music differs per episode id).
 """
-import math, sys, os, json, random, subprocess
+import math, sys, os, json, random, subprocess, re
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 W, H, FPS, SR, S = 1080, 1920, 30, 44100, 2
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
+CAP_FONT = os.path.join(HERE, "fonts", "FreeSansBold.ttf")   # has Devanagari (GNU FreeFont, GPL + font exception)
 PITCH = {"moko": 0.0, "drip": 4.0, "sunny": -3.0, "wind": -5.5}
 GAP = 0.4
 
@@ -690,6 +691,25 @@ class Timeline:
 
 POS = {"drip": (230, 1290), "sunny": (840, 300), "wind": (230, 360)}
 
+def text_block(out, text, cy, size, fill, alpha=1.0, max_w=930):
+    """centered, word-wrapped Hindi text with a dark outline; returns new image"""
+    if alpha <= 0.01: return out
+    font = ImageFont.truetype(CAP_FONT, size)
+    words, rows, cur = text.split(), [], ""
+    for w in words:
+        t2 = (cur + " " + w).strip()
+        if font.getlength(t2) <= max_w or not cur: cur = t2
+        else: rows.append(cur); cur = w
+    if cur: rows.append(cur)
+    lh = int(size * 1.28)
+    ov = Image.new("RGBA", out.size, (0, 0, 0, 0)); od = ImageDraw.Draw(ov)
+    y = cy - lh * len(rows) / 2
+    for r in rows:
+        od.text((W / 2, y), r, font=font, fill=fill + (255,), anchor="ma", stroke_width=max(5, size // 11), stroke_fill=(38, 48, 98, 255))
+        y += lh
+    if alpha < 1: ov.putalpha(ov.split()[3].point(lambda v: int(v * alpha)))
+    return Image.alpha_composite(out.convert("RGBA"), ov).convert("RGB")
+
 def render_frame(tl, t):
     m, mname = tl.mood(t)
     lp, lc, lk = tl.loc(t)
@@ -809,6 +829,14 @@ def render_frame(tl, t):
         cw, ch = W / zoom, H / zoom
         x0 = min(max(fx - cw / 2, 0), W - cw); y0 = min(max(fy - ch / 2, 0), H - ch)
         out = out.resize((W, H), Image.BICUBIC, box=(x0, y0, x0 + cw, y0 + ch))
+    # hook title in the first seconds + subtitles for the line being spoken (many people watch muted)
+    hook = getattr(tl, "hook", "")
+    if hook and t < 2.8: out = text_block(out, hook, 1160, 116, (255, 226, 80), alpha=min(1, ease(t / 0.25), (2.8 - t) / 0.4))
+    texts = getattr(tl, "texts", None)
+    if texts:
+        for i, (_, a, b) in enumerate(tl.lines):
+            if a - 0.05 <= t <= b + 0.3:
+                out = text_block(out, texts[i], 1500, 72, (255, 255, 255), max_w=900); break
     fade = min(ease(t / .4), ease((tl.total - t) / .6))
     if fade < 1: out = Image.blend(Image.new("RGB", out.size, (255, 255, 255)), out, fade)
     return out
@@ -818,6 +846,13 @@ def make(ep_dir, preview_only=False):
     lines, total, env = build_audio(ep_dir, spec)
     json.dump({"lines": lines, "total": total}, open(os.path.join(ep_dir, "timing.json"), "w"), indent=1)
     tl = Timeline(spec, lines, total, env)
+    tl.texts = [l["text"] for l in spec["lines"]]
+    meta = spec.get("meta", {})
+    hook = meta.get("hook") or ""
+    if not hook:   # first sentence of the title (before the emoji), e.g. "मोको को आया गुस्सा!"
+        m = re.match(r"\s*([^!?|]*[!?])", meta.get("title", ""))
+        hook = m.group(1).strip() if m else ""
+    tl.hook = hook
     # contact sheet of 6 moments for checking
     ts = [lines[i][1] + 0.8 for i in range(len(lines))][:8]
     thumbs = [render_frame(tl, x).resize((270, 480)) for x in ts]

@@ -2,6 +2,10 @@
 
 Updated every Monday by the weekly review. Newest notes on top.
 
+## 2026-11-05 · manual note (from Kinshuk's Studio check)
+- Day 4: ~13 views in total, "stayed to watch" 47%. Problem is distribution, not the videos. Since ep13 the engine adds Hindi subtitles and a big hook title in the first 2.8 s (meta.title text before the first "!" or "?", or meta.hook to override).
+- Write title text so its first sentence works as the on-screen hook (short, emotional, ends with "!" or "?").
+
 ## 2026-11-02 · weekly review #1 (data too early)
 - Week 26 Oct–1 Nov: no videos were live yet (first episodes go out 2 Nov), so Metricool shows 0 views. YouTube starts at 33 subscribers, Facebook at 5 followers. No lessons from data yet.
 - Keep ALL starting rules below unchanged for this week.

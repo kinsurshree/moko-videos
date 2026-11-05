@@ -14,3 +14,5 @@ ep07 | 2026-11-05 07:00 | Healthy habits | brushing teeth morning and night (gar
 ep08 | 2026-11-05 19:00 | Feelings and kindness | saying please and thank you (town) | मोको को लगी प्यास! 💧☁️ प्लीज़ थैंक यू सीखो | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
 ep09 | 2026-11-06 07:00 | Safety | stay with grown-ups, if lost stay where you are (park) | मोको खो गया! 😨☁️ बड़ों के साथ रहना सीखो | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
 ep10 | 2026-11-06 19:00 | Colors | red, yellow, blue (farm) | मोको के रंग! 🍎🍌☁️ लाल पीला नीला | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
+ep11 | 2026-11-07 07:00 | Letters | Hindi letters ka, sa, ba (school) | मोको के अक्षर! 🍌🍎⚽ क स ब सीखो | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
+ep12 | 2026-11-07 19:00 | Weather and nature | umbrella on a rainy day (sky) | मोको भीग गया! ☔☁️ बारिश में छाता लगाओ | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices

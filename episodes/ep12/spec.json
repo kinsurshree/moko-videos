@@ -1,0 +1,23 @@
+{
+ "id": "ep12",
+ "cast": ["moko", "drip", "wind"],
+ "start_mood": "sad",
+ "location": "sky",
+ "lines": [
+  {"who": "moko", "text": "टिप-टिप! बारिश आ गई! मैं भीग रहा हूँ।", "mood": "sad"},
+  {"who": "drip", "text": "मोको, बारिश में भीगना ठीक नहीं है।", "mood": "sad", "drip": "sad"},
+  {"who": "wind", "text": "बारिश में छाता लगाओ बेटा।", "mood": "calm", "do": ["enter:wind", "show:umbrella"]},
+  {"who": "wind", "text": "छाते से हम सूखे और सुरक्षित रहते हैं।", "mood": "calm"},
+  {"who": "moko", "text": "वाह दादा जी! अब मैं नहीं भीग रहा!", "mood": "happy"},
+  {"who": "drip", "text": "मोको, मैं भी छाते के नीचे आ जाऊँ?", "mood": "happy", "drip": "happy"},
+  {"who": "moko", "text": "बच्चों, बारिश में क्या लगाते हैं? छाता!", "mood": "excited"},
+  {"who": "moko", "text": "बारिश में छाता लगाओ! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Weather and nature",
+  "topic": "umbrella on a rainy day",
+  "title": "मोको भीग गया! ☔☁️ बारिश में छाता लगाओ | Hindi Cartoon Story",
+  "description": "बारिश में छाता लगाओ, सूखे रहो! ☔☁️ इस Hindi cartoon story में दादा हवा मोको और ड्रिप को बारिश में छाता लगाना सिखाते हैं।\n\n👶 2–6 साल के बच्चों के लिए: मौसम और अच्छी आदतें।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "rainy day for kids hindi", "बारिश का मौसम"]
+ }
+}

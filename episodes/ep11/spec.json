@@ -1,0 +1,23 @@
+{
+ "id": "ep11",
+ "cast": ["moko", "drip", "sunny"],
+ "start_mood": "calm",
+ "location": "school",
+ "lines": [
+  {"who": "moko", "text": "येय! आज हम नए अक्षर सीखेंगे!", "mood": "excited"},
+  {"who": "moko", "text": "देखो! क से केला। क!", "mood": "excited", "do": ["show:banana"]},
+  {"who": "sunny", "text": "और स से सेब। स!", "mood": "happy", "do": ["enter:sunny", "hide:banana", "show:apple"]},
+  {"who": "drip", "text": "और ब से बॉल। ब!", "mood": "happy", "drip": "excited", "do": ["hide:apple", "show:ball"]},
+  {"who": "moko", "text": "क से केला, स से सेब, ब से बॉल!", "mood": "happy"},
+  {"who": "sunny", "text": "वाह! तुम सब तो अक्षर सीख गए!", "mood": "happy"},
+  {"who": "moko", "text": "बच्चों, बताओ, केला किस अक्षर से? क से!", "mood": "excited"},
+  {"who": "moko", "text": "क, स, ब! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Letters",
+  "topic": "Hindi letters ka, sa, ba",
+  "title": "मोको के अक्षर! 🍌🍎⚽ क स ब सीखो | Hindi Cartoon Story",
+  "description": "आओ बच्चों, अक्षर सीखें: क से केला, स से सेब, ब से बॉल! 🍌🍎⚽ इस Hindi cartoon story में मोको, ड्रिप और सनी हिंदी के पहले अक्षर सिखाते हैं।\n\n👶 2–6 साल के बच्चों के लिए: हिंदी अक्षरों की पहली सीख।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "hindi alphabet for kids", "हिंदी वर्णमाला"]
+ }
+}

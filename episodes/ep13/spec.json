@@ -1,0 +1,24 @@
+{
+ "id": "ep13",
+ "cast": ["moko", "drip", "wind"],
+ "start_mood": "angry",
+ "location": "garden",
+ "lines": [
+  {"who": "moko", "text": "उफ़्फ़! मेरा मन बहुत बेचैन है, मुझसे कुछ भी नहीं हो रहा!", "mood": "angry"},
+  {"who": "drip", "text": "मोको, तुम इतने परेशान क्यों हो? चलो दादा जी के पास चलें।", "mood": "sad", "drip": "sad"},
+  {"who": "wind", "text": "आओ बेटा, मेरे साथ बगीचे में आओ। यहाँ एक सुंदर फूल है।", "mood": "calm", "do": ["enter:wind", "show:flower"]},
+  {"who": "wind", "text": "पहले फूल को धीरे से सूँघो। गहरी साँस अंदर लो। एक, दो, तीन।", "mood": "calm"},
+  {"who": "wind", "text": "अब मुँह से धीरे-धीरे साँस बाहर छोड़ो, जैसे मोमबत्ती बुझा रहे हो।", "mood": "calm"},
+  {"who": "moko", "text": "वाह दादा जी! गहरी साँस लेने से मेरा मन शांत हो गया।", "mood": "happy"},
+  {"who": "drip", "text": "सच में मोको! अब तुम्हारा चेहरा कितना प्यारा लग रहा है।", "mood": "happy", "drip": "happy"},
+  {"who": "moko", "text": "बच्चों, जब मन बेचैन हो तो क्या करते हैं? गहरी साँस लेते हैं!", "mood": "excited"},
+  {"who": "moko", "text": "गहरी साँस लो, मन शांत करो! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Bedtime and calm",
+  "topic": "calming down with deep flower breaths (garden)",
+  "title": "मोको का मन बेचैन है! 😣☁️ गहरी साँस लेना सीखो | Hindi Cartoon Story",
+  "description": "गहरी साँस लो, मन शांत करो! 🌸☁️ इस Hindi cartoon story में दादा हवा मोको को फूल सूँघकर और मोमबत्ती बुझाकर गहरी साँस लेना सिखाते हैं। बच्चों के लिए प्यारी शांत होने की कहानी।\n\n👶 2–6 साल के बच्चों के लिए: बेचैन मन को गहरी साँस से शांत करना।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "calm down kids hindi", "गहरी साँस"]
+ }
+}

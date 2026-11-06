@@ -1,0 +1,23 @@
+{
+ "id": "ep14",
+ "cast": ["moko", "drip", "sunny"],
+ "start_mood": "scared",
+ "location": "park",
+ "lines": [
+  {"who": "moko", "text": "अरे नहीं! मेरी गेंद ड्रिप को लग गई! अब क्या करूँ?", "mood": "scared", "do": ["show:ball"]},
+  {"who": "drip", "text": "आह! मुझे बहुत दर्द हुआ मोको। मुझे अच्छा नहीं लग रहा।", "mood": "sad", "drip": "sad"},
+  {"who": "sunny", "text": "मोको, अगर गलती हो जाए तो हमें सॉरी बोलना चाहिए।", "mood": "calm", "do": ["enter:sunny"]},
+  {"who": "moko", "text": "सॉरी ड्रिप! मुझसे गलती हो गई। मैंने जानबूझकर नहीं मारा।", "mood": "shy"},
+  {"who": "drip", "text": "कोई बात नहीं मोको। तुमने सॉरी बोला, इसलिए अब मैं ठीक हूँ।", "mood": "happy", "drip": "happy", "do": ["show:heart"]},
+  {"who": "sunny", "text": "देखो, सॉरी बोलने से दोस्ती और भी पक्की हो गई!", "mood": "happy"},
+  {"who": "moko", "text": "बच्चों, गलती हो जाए तो क्या बोलते हैं? सॉरी!", "mood": "excited"},
+  {"who": "moko", "text": "गलती हो तो सॉरी बोलो! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Feelings and kindness",
+  "topic": "saying sorry after a mistake (park)",
+  "title": "मोको से गलती हो गई! 😢☁️ सॉरी बोलना सीखो | Hindi Cartoon Story",
+  "description": "गलती हो जाए तो सॉरी बोलो! 💛☁️ इस Hindi cartoon story में मोको की गेंद ड्रिप को लग जाती है और सनी उसे सॉरी बोलना सिखाती है। बच्चों के लिए प्यारी दोस्ती की कहानी।\n\n👶 2–6 साल के बच्चों के लिए: गलती मानना और सॉरी बोलना।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "sorry kahani hindi", "सॉरी बोलना"]
+ }
+}

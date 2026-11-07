@@ -1,0 +1,24 @@
+{
+ "id": "ep16",
+ "cast": ["moko", "sunny", "wind"],
+ "start_mood": "sad",
+ "location": "farm",
+ "lines": [
+  {"who": "moko", "text": "हाय! मुझे बहुत भूख लगी है, मेरा पेट गुड़गुड़ कर रहा है।", "mood": "sad"},
+  {"who": "sunny", "text": "मोको, चॉकलेट मत खाओ। आओ, ताज़े फल खाते हैं!", "mood": "happy", "do": ["enter:sunny", "show:apple"]},
+  {"who": "moko", "text": "वाह! लाल सेब कितना सुंदर है! क्या मैं इसे खा लूँ?", "mood": "excited"},
+  {"who": "wind", "text": "हाँ बेटा, पहले हाथ धो लो, फिर सेब खाओ।", "mood": "calm", "do": ["enter:wind", "show:banana"]},
+  {"who": "wind", "text": "फल खाने से हम मज़बूत बनते हैं और बीमार नहीं पड़ते।", "mood": "calm"},
+  {"who": "moko", "text": "और ये पीला केला भी बहुत मीठा है। मुझे पसंद आया!", "mood": "happy", "do": ["give:banana:moko"]},
+  {"who": "sunny", "text": "देखो मोको, अब तुम्हारा चेहरा कितना चमक रहा है!", "mood": "happy"},
+  {"who": "moko", "text": "बच्चों, मज़बूत बनने के लिए क्या खाते हैं? ताज़े फल!", "mood": "excited"},
+  {"who": "moko", "text": "रोज़ फल खाओ! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Healthy habits",
+  "topic": "eating fresh fruits (farm)",
+  "title": "मोको को लगी भूख! 😋☁️ रोज़ फल खाओ | Hindi Cartoon Story",
+  "description": "रोज़ फल खाओ, मज़बूत बनो! 🍎🍌☁️ इस Hindi cartoon story में सनी और दादा हवा मोको को सेब और केले जैसे ताज़े फल खाना सिखाते हैं। बच्चों के लिए प्यारी सेहत की कहानी।\n\n👶 2–6 साल के बच्चों के लिए: ताज़े फल खाने की अच्छी आदत।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "healthy food kids hindi", "फल खाओ"]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "id": "ep15",
+ "cast": ["moko", "drip", "wind"],
+ "start_mood": "calm",
+ "location": "town",
+ "lines": [
+  {"who": "drip", "text": "हाय! मेरी किताब गिर गई, अब मैं क्या करूँ?", "mood": "sad", "drip": "sad", "do": ["show:book"]},
+  {"who": "moko", "text": "अरे ड्रिप! तुम रो क्यों रहे हो? क्या हुआ तुम्हें?", "mood": "sad"},
+  {"who": "drip", "text": "मेरी किताब बहुत भारी है। मुझसे उठाई नहीं जा रही।", "mood": "sad", "drip": "sad"},
+  {"who": "moko", "text": "कोई बात नहीं ड्रिप। मैं तुम्हारी मदद करता हूँ।", "mood": "proud", "do": ["give:book:drip"]},
+  {"who": "drip", "text": "वाह मोको! तुमने मेरी मदद की, बहुत-बहुत शुक्रिया!", "mood": "happy", "drip": "happy"},
+  {"who": "wind", "text": "शाबाश बच्चों! दूसरों की मदद करने से मन खुश होता है।", "mood": "calm", "do": ["enter:wind"]},
+  {"who": "moko", "text": "हाँ दादा जी! मदद करके मुझे भी बहुत अच्छा लग रहा है।", "mood": "happy"},
+  {"who": "moko", "text": "बच्चों, दोस्त परेशान हो तो क्या करते हैं? उसकी मदद करते हैं!", "mood": "excited"},
+  {"who": "moko", "text": "सबकी मदद करो! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Feelings and kindness",
+  "topic": "helping a friend (town)",
+  "title": "ड्रिप की किताब गिर गई! 😢☁️ मदद करना सीखो | Hindi Cartoon Story",
+  "description": "दोस्त परेशान हो तो उसकी मदद करो! 🤝☁️ इस Hindi cartoon story में मोको अपने दोस्त ड्रिप की मदद करता है और दादा हवा उसे शाबाशी देते हैं। बच्चों के लिए प्यारी मदद करने की कहानी।\n\n👶 2–6 साल के बच्चों के लिए: दूसरों की मदद करना।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "help kahani hindi", "मदद करना"]
+ }
+}

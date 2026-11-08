@@ -1,0 +1,24 @@
+{
+ "id": "ep17",
+ "cast": ["moko", "sunny", "wind"],
+ "start_mood": "sad",
+ "location": "park",
+ "lines": [
+  {"who": "moko", "text": "उफ़्फ़! आज बहुत गर्मी है, मुझे पसीना आ रहा है!", "mood": "sad"},
+  {"who": "sunny", "text": "हा हा! आज मैं बहुत तेज़ चमक रही हूँ, मोको।", "mood": "happy", "do": ["enter:sunny"]},
+  {"who": "moko", "text": "सनी दीदी, मुझे बहुत प्यास लगी है। अब मैं क्या करूँ?", "mood": "sad"},
+  {"who": "wind", "text": "गर्मी में धूप से बचो और छाँव में बैठो, बेटा।", "mood": "calm", "do": ["enter:wind"]},
+  {"who": "wind", "text": "और खूब सारा ठंडा पानी पियो, तब तुम ठीक रहोगे।", "mood": "calm", "do": ["show:water"]},
+  {"who": "moko", "text": "गट-गट! वाह, पानी पीकर मुझे बहुत अच्छा लग रहा है!", "mood": "happy", "do": ["give:water:moko"]},
+  {"who": "sunny", "text": "अब मैं भी धीरे चमकूँगी, ताकि तुम आराम से खेल सको।", "mood": "happy"},
+  {"who": "moko", "text": "बच्चों, गर्मी में हमें क्या करना चाहिए? खूब पानी पीना चाहिए!", "mood": "excited"},
+  {"who": "moko", "text": "गर्मी में पानी पियो! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Weather and nature",
+  "topic": "hot sunny day: shade and drinking water (park)",
+  "title": "मोको को लगी गर्मी! 🥵☁️ गर्मी में पानी पियो | Hindi Cartoon Story",
+  "description": "गर्मी में पानी पियो, छाँव में बैठो! 💧☁️ इस Hindi cartoon story में सनी और दादा हवा मोको को गर्मी के दिन ठंडा पानी पीना और छाँव में रहना सिखाते हैं। बच्चों के लिए प्यारी मौसम की कहानी।\n\n👶 2–6 साल के बच्चों के लिए: गर्मी में पानी पीना और धूप से बचना।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "garmi kids hindi", "पानी पियो"]
+ }
+}

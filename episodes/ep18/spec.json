@@ -1,0 +1,24 @@
+{
+ "id": "ep18",
+ "cast": ["moko", "drip", "sunny"],
+ "start_mood": "excited",
+ "location": "school",
+ "lines": [
+  {"who": "moko", "text": "येय! आज हम चार, पाँच और छह तक गिनती सीखेंगे!", "mood": "excited", "do": ["show:book"]},
+  {"who": "moko", "text": "देखो ड्रिप! पहले चार गिनते हैं। एक, दो, तीन, चार!", "mood": "happy", "do": ["hide:book", "show:n4"]},
+  {"who": "drip", "text": "वाह! चार के बाद कौन सी गिनती आती है मोको?", "mood": "happy", "drip": "happy"},
+  {"who": "moko", "text": "चार के बाद पाँच आता है! एक, दो, तीन, चार, पाँच!", "mood": "excited", "do": ["show:n5"]},
+  {"who": "sunny", "text": "शाबाश! और पाँच के बाद छह आता है।", "mood": "happy", "do": ["enter:sunny", "show:n6"]},
+  {"who": "drip", "text": "चार, पाँच, छह! अब मुझे भी ये गिनती याद हो गई!", "mood": "happy", "drip": "happy"},
+  {"who": "moko", "text": "चलो सब मिलकर गिनते हैं। चार, पाँच, छह!", "mood": "proud"},
+  {"who": "sunny", "text": "बच्चों, तुम भी हमारे साथ गिनो! चार, पाँच, छह!", "mood": "happy"},
+  {"who": "moko", "text": "गिनती बहुत मज़ेदार है! मन बदला, मौसम बदला!", "mood": "proud", "do": ["rainbow"]}
+ ],
+ "meta": {
+  "pillar": "Numbers and shapes",
+  "topic": "counting 4, 5, 6 (school)",
+  "title": "चलो गिनती सीखें! 🔢☁️ चार पाँच छह | Hindi Cartoon Story",
+  "description": "चार, पाँच, छह गिनना सीखो! 🔢☁️ इस Hindi cartoon story में मोको, ड्रिप और सनी मिलकर चार से छह तक गिनती सीखते हैं। बच्चों के लिए प्यारी गिनती की कहानी।\n\n👶 2–6 साल के बच्चों के लिए: 4, 5 और 6 गिनना सीखना।\n\nमोको – छोटा बादल: रोज़ एक नई सीख। मन बदला, मौसम बदला! 💙\n\n#hindicartoon #kidsstoryinhindi #shorts",
+  "tags": ["hindi cartoon story", "kids story in hindi", "hindi moral stories", "cartoon story in hindi", "hindi kids story", "bachon ki kahaniyan", "hindi stories for kids", "kids cartoon hindi", "moko", "मोको", "छोटा बादल", "बच्चों की कहानी", "हिंदी कार्टून", "counting hindi kids", "गिनती 4 5 6"]
+ }
+}

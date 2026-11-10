@@ -21,5 +21,5 @@ ep14 | 2026-11-08 16:00 | Feelings and kindness | saying sorry after a mistake (
 ep15 | 2026-11-09 10:00 | Feelings and kindness | helping a friend (town) | ड्रिप की किताब गिर गई! 😢☁️ मदद करना सीखो | Hindi Cartoon Story | FAILED – Metricool limit (not published) | Google voices
 ep16 | 2026-11-09 16:00 | Healthy habits | eating fresh fruits (farm) | मोको को लगी भूख! 😋☁️ रोज़ फल खाओ | Hindi Cartoon Story | FAILED – Metricool limit (not published) | Google voices
 week-2026-11-08 | 2026-11-08 13:00 | Compilation | 13 episodes | मोको की 13 नई कहानियाँ ☁️🌈 | Hindi Cartoon Stories for Kids | FAILED – Metricool limit (not published)
-ep17 | 2026-11-10 10:00 | Weather and nature | hot sunny day: shade and drinking water (park) | मोको को लगी गर्मी! 🥵☁️ गर्मी में पानी पियो | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
-ep18 | 2026-11-10 16:00 | Numbers and shapes | counting 4, 5, 6 (school) | चलो गिनती सीखें! 🔢☁️ चार पाँच छह | Hindi Cartoon Story | scheduled YouTube + Facebook | Google voices
+ep17 | 2026-11-10 10:00 | Weather and nature | hot sunny day: shade and drinking water (park) | मोको को लगी गर्मी! 🥵☁️ गर्मी में पानी पियो | Hindi Cartoon Story | FAILED – Metricool limit (not published) | Google voices
+ep18 | 2026-11-10 16:00 | Numbers and shapes | counting 4, 5, 6 (school) | चलो गिनती सीखें! 🔢☁️ चार पाँच छह | Hindi Cartoon Story | FAILED – Metricool limit (not published) | Google voices

@@ -2,6 +2,16 @@
 
 Updated every Monday by the weekly review. Newest notes on top.
 
+## 2026-11-16 · weekly review #3 (week 9–15 Nov)
+- BLOCKER STILL ON: zero new posts went live this week. Last live post is ep09 (6 Nov 07:00). All 19 posts scheduled after that (ep10–ep18 + 8 Nov compilation, YouTube and Facebook) show ERROR "You have reached your Metricool account limit". Also no new episodes were made or logged after ep18 (last repo commit 10 Nov), and nothing is scheduled from 11 Nov onward. Channel has been silent for 10 days.
+- Numbers this week (no new content): YouTube 51 views (9–12 Nov; 13–15 Nov not in yet), 0 subscribers gained, still 33. YouTube per-video watch time not returned by Metricool. Facebook: 0 new reel views, followers still 6. Lifetime FB reels unchanged: 783 views on 10 reels, average view 2–8 s.
+- Timing test: still NOT possible (0 posts live in 10:00/16:00). Keep 10:00/16:00 and compare once ~6 posts in the new slots are live. Old-slot baseline stays: Facebook 07:00 reels ~129 avg views vs ~24 at 19:00.
+- Rule: when posting works again, do NOT re-render. First re-schedule the ready-made failed episodes (ep10–ep18), strongest first: ep18 counting 4-5-6, ep14 sorry, ep15 helping, ep17 hot day, ep16 fruits, ep12 umbrella, ep11 letters, ep10 colours, ep13 calm breathing last. Their topics count as "never shown", so don't make new episodes on the same topics in the same week.
+- Rule: keep last week's content lessons (no new data to change them): open with a sudden problem + big emotion in the first 2 s; title "मोको + strong feeling! + emoji + lesson"; more counting/numbers and feelings conflicts (anger, fear, sharing, sorry); bedtime/calm at most 1 a week; 25–30 s, lesson by ~8 s, end with a say-along repeat line.
+- Rule: Shorts views do not count toward the 4,000 watch-hour goal, only long videos do. Make the Sunday compilation a real long video (aim 8+ minutes, 15–20 episodes, a short "अगली कहानी…" bridge between stories) so it earns watch hours. Post it as a normal YouTube video, not a Short.
+- Rule: 33 subscribers and 0 gained from ~90 YouTube views. End every episode with Moko waving "कल फिर मिलेंगे! 👋" plus the series line, so kids recognise Moko and come back. No "comment below" asks (made-for-kids content has comments off).
+- vidIQ credits: 125 left (resets 10 Dec). Under 300: use no paid vidIQ calls; reuse the starting keywords.
+
 ## 2026-11-09 · weekly review #2 (week 2–8 Nov)
 - BLOCKER: Metricool hit its account posting limit. Every post from 6 Nov 19:00 onward (ep10–ep14 and the 8 Nov compilation) FAILED on YouTube and Facebook with "You have reached your Metricool account limit". Only ep01–ep09 actually went live. Kinshuk has been alerted. Until he confirms the limit is fixed, keep making and logging episodes as normal, but check getScheduledPosts each night: if earlier posts show status ERROR, mark them "FAILED – Metricool limit" in EPISODE_LOG.md instead of "scheduled", and treat failed episodes as never shown (their topics can be reused later).
 - Numbers so far (data lags): YouTube ~9 views total, 33 subscribers (0 gained). Facebook reels 741 views on 9 reels, followers 5 → 6. Watch-through is weak: Facebook average view is only 2–7 s on 25–40 s reels.
